@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Piyush
+        <span>Singh</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials" >Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's<span>Piyush Singh</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>I love creating seamless digital experiences, ensuring quality, and crafting engaging visuals. Let’s build something great together!</p>
+               <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mayeonng"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfhJREFUSEuVVotxgzAMfdok3YRuEiZpN4FNyCZNJ1GRLdmSLZKr73IHRNbnfQwEtwgA+wflmkDg+LwEarTfNF3L3rZiIp/jqom8odhhLTBl8929SZMMMjakBcrjA4SljZ+03nvxE4cmngR8GNQOolKHAwdJ8/3RZQEjrhD6qsADwPP83T1PXgYvwNO8geSSxgbYAazKzQHwMvP0Bj/925GsBSrID4A/a1JscQoTxawWB29tna8nEGgEot8z7CuxRmaYJhYCqNlkUKg1IQXkJ+3eCHzjUrBE37Sgxcj9MvDUuKWBqMYBAWu9oQ1gIdo2KR9lQlvfZdKo4VlFE8l1+0bAfVRc82eNkSl+lLNEpt2NrNg5FTWSBVrr4QBoIbBMKbGyDgdVBlExjhqNdoBX3Wgq6hCVZKVYbaTid5w8GRe9wKAQ1ib3zoGfoCQSuKSorB2EVd3j5dxl6kl2R0XrLOHgDsJWNc476wQSV/3SmK4SyWWqEEWjGQeiqD5BUoDA3QeDfuNRoSoqndWzTZYWUA4UIgI27ueWQhQmCCQ/z/NHdU6LmmvXt5uYzsg0x0theXbTGEqP6+6DaL8Bxjb0dJp6o2lUOOyGMQeB1duXxWpFmdwOSiW5b/Vvt+sCPn66jk2EF06a0dzb3Z58efidw8dDjuPVIP/n5g/JtuodwdvCJwAAAABJRU5ErkJggg=="/></a>
+                <a href="https://github.com/Mayeonnng"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAilJREFUSEuNVdmB6jAMHHUSKlnoJKkk2UpgK0m2EtKJHjpsywf78AcJjqxjNCMTAWDYiu/jDTccPLqzwWftXi0JBJaHvmsK7zzEYJ0pgT44dyXgysAXAHk/GTgB/L7+HyAcOYk3wXJ2DVwTA3dxOgbGq7RgN9izWWLT7wkiGwHrR+hYVuL85+Vq69xFmP3jDNC9tP4T+HM1320Q60HBZgLh6T09GFgAmgm8OtNON508mW/rAVaH8gRoAVh6Y9xomryboe4+oAF0iUPFOARIwWQ7Qip2l0R864Gdmgm4J2oS+MGEZciQni1ChjlsS9OP5NoD0AywGKaINy/f4v8pB5oI/DQY1VCg25J8UoA7gWc3Ogl8SQof07Qug8A7F0pL9lKF09SyezrWsn0Q+NYH+LOMDJOKkXBpmxwCaEO9UZ7pYGg1DMznQxoVi5xB6rAKUHwPBkuJEgvODIwsClRT4TxcB2Hevu2GKFi0kFYJELK7Arw3U7NTZvGhJ0UfQs/oXEwqBsZhtzNhAqvAZMitLyWfAAtksmfisp/9pdh6EFq2mUGFRSUtyUialSZkGgFySFUdKpZ5NQ9uqZuOisCNFtgNoFXFMpiOAaIN4AyNV7aA8WgJV98H9jU1TYaXQCSjWBoXl9kUTi7sNpF1xqIi8YiBwJUunFE1IQmFzydoTeUQ4N3cp8nvhjhNpRvVfj04MhHqG20g1lhbg9BAdIMoVQUdXJ37/zgd6PAflqLsH5btyb0AAAAASUVORK5CYII="/></a>
+                <a href="https://www.instagram.com/mayeonng"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAnpJREFUSEuFlkFy2zAMRR8u0W3tk8TadN8DdMY5SeKZ3kPyMbqSehKrXXTfEyAECUqgJE+4UhgS/+PjA7QIoJSVv31jt+9n1oN+/pN9i7OsNagg6CHw8fm4235LZBqhdgDPY+wYrkoY0e0qiCfgCrwAl+MIWaK5yCtTEveGMJvGW3JbMS1w75nNCWBqGVXpltxPCeACOiPck67v2zpFAGP+MEaCdk3x463dNyeB0bN5BZ2qbYpEayH6Io2cBa3pNz6L6QM/0u0byH/Q7wgPFAve1ZihyBnlkQBmkC6bt3WASWcZfkX4jcog6DeFX8Bf3x/d512t27bIluUAvIbCnkB7hMuCWYBngZ8K/4AvAncVRjfI+VOA0BNj0vSCcPMCVoe9lWxZgiH0CfgqILF+0aiKMKBLBtlRRWdzR9Pf15yZ6U3W3ZbXMNFx6207WZONK9N44Vw83owTd1wFz2bpUTHgJe4ewNk6V/P0W9L3rEWOsHJDOSF594mWM9hLtHaSSedy5FgXkFHQW/pHbqAgUgYvhpDBXZdr4MeWDlhYCRijARVrFtu3Lu0FPSncU3hjGos8Jct2YTysNfCoodEyN7epA6xzyS5aNqHpsmRWYOubMn+8BiljiWM/YOnof3SbKWusbei9CPzRUnDrl3jXvnOjCnQFoE7TdlRYIGfWlnVj0+0IMRkNYEgkXg/7QKAeKum7NVvvrC9g7HZBey1ZWvbTAcAyx2tzuS3zrN+msjhEy3yqb4aNmCBdyflo2SWzYLz85GgutnXyPc2raXnUGxc9u7ot4dNzBw+vb4UM2kO7Kwcxok477AqwNnGku/j6+DeNR14fnwNyvvUBbMQSLIddXO4AAAAASUVORK5CYII="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeFJREFUSEuVVttxAjEMXHViKgmpJFAJpBKgEkgluU4Uy9bZkk/mJv5gbmxZj92VDGFcBIAJBAaXM/vtjYvpzKb52UQwG2pU3HRv8xtqY01pP4uZv52IJljz4CK38ucBLIwrWBHiO+UHdQNHgC4ETpUDPPLPFUAC6JSDybey40M+AZwBLO1UPRizE4DbWDYBCxMSuNy/hwEIYCYsYDxy3lfnuxOu2xGjcpdeAEtFr6rBvhKAXxP5O2d0B2s19cBnH9PzWZxvSS47TxCOKm4JLxktmpHAJknc6mUviUJ4TUggarzWCrqtZHhRR/9Xlw2gjicQzbv3Dfly5AjuHPSSPURGahHhm3FCOCikA0SeaJGqYO2MJooaaabxkhkV7eiY1fSlihkQCZtutTlXkj28I8kS5QQ2jTTk2NF0KhKlHXrv9notyXZgXnPTXdZR3OdMMOBqxE+AS2MFmMXdQkDKXS3ViGxndDflzGarqaDhK/NEljiWvnBrgKh27Sx1fUbW7JJ2coqIGuB6AXQGuA7F4TXaPjg9LZGnqOijQFTH7/oyiLOfvH/nddqG5emNvQcnZsZTYUfShoMogCWzd2ngVGHRATd7zBp4obhsgHcKcdxoSePdiXrXfxKz7vXjelOGHv8BwRTSG+AnJ3IAAAAASUVORK5CYII="/></a>
+               </div>
+               <div class="btn-group">
+                    <a href="https://www.linkedin.com/in/mayeonng" class="btn">Hire Me</a>
+                    <a href="#Contact" class="btn">Contact</a>
+                </div>
+            </div>
+                <div class="home-img">
+                    <img src="photoahh.jpg" alt="">
+                </div>   
+    </section>
+    <section class="Education" id="Education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>Lorem ipsum, dolor sit 
+                            amet consectetur adipisicing 
+                            elit. Modi odio, praesentium 
+                            facilis unde, dolorum at impedit 
+                            sit eius, alias laborum quasi non 
+                            quo reprehenderit fugit nulla eum. 
+                            Dignissimos, numquam ullam.</p>
+                    </div>
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Senior High School</h3>
+                        <p>Lorem ipsum, dolor sit 
+                            amet consectetur adipisicing 
+                            elit. Modi odio, praesentium 
+                            facilis unde, dolorum at impedit 
+                            sit eius, alias laborum quasi non 
+                            quo reprehenderit fugit nulla eum. 
+                            Dignissimos, numquam ullam.</p>
+                    </div>
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>University Begins</h3>
+                        <p>Lorem ipsum, dolor sit 
+                            amet consectetur adipisicing 
+                            elit. Modi odio, praesentium 
+                            facilis unde, dolorum at impedit 
+                            sit eius, alias laborum quasi non 
+                            quo reprehenderit fugit nulla eum. 
+                            Dignissimos, numquam ullam.</p>
+                    </div>
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024-28</div>
+                    <div class="timeline-content">
+                        <h3>Projects and Internship</h3>
+                        <p>Lorem ipsum, dolor sit 
+                            amet consectetur adipisicing 
+                            elit. Modi odio, praesentium 
+                            facilis unde, dolorum at impedit 
+                            sit eius, alias laborum quasi non 
+                            quo reprehenderit fugit nulla eum. 
+                            Dignissimos, numquam ullam.</p>
+                    </div>
+                
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2028</div>
+                    <div class="timeline-content">
+                        <h3>University Ends</h3>
+                        <p>Lorem ipsum, dolor sit 
+                            amet consectetur adipisicing 
+                            elit. Modi odio, praesentium 
+                            facilis unde, dolorum at impedit 
+                            sit eius, alias laborum quasi non 
+                            quo reprehenderit fugit nulla eum. 
+                            Dignissimos, numquam ullam.</p>
+                    </div>
+                
+            </div>
+        </div>
+
+    </section>  
+    
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI Design</h4>
+                    <p> Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Delectus reiciendis a eligendi 
+                        maiores adipisci enim laudantium 
+                        temporibus architecto expedita odio!
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Development</h4>
+                    <p> Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Delectus reiciendis a eligendi 
+                        maiores adipisci enim laudantium 
+                        temporibus architecto expedita odio!
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Backend Development</h4>
+                    <p> Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Delectus reiciendis a eligendi 
+                        maiores adipisci enim laudantium 
+                        temporibus architecto expedita odio!
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Testing</h4>
+                    <p> Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Delectus reiciendis a eligendi 
+                        maiores adipisci enim laudantium 
+                        temporibus architecto expedita odio!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="tesimonials-box">
+            <h2 class="heading">Testimonials</h2>
+
+            <div class="wrapper">
+                <div class="testimonials-item">
+                    <img src="person1.jpeg" alt="">
+                    <h2>Marilyn</h2>
+                    <div class="rating">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Sunt hic sed neque perferendis 
+                        id natus accusamus error tenetur.
+                        Molestias corrupti eveniet aut 
+                        magni consequatur iure ullam 
+                        perspiciatis ducimus et labore?</p>
+                </div>
+
+                <div class="testimonials-item">
+                    <img src="person2.jpg" alt="">
+                    <h2>Julia</h2>
+                    <div class="rating">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Sunt hic sed neque perferendis 
+                        id natus accusamus error tenetur.
+                        Molestias corrupti eveniet aut 
+                        magni consequatur iure ullam 
+                        perspiciatis ducimus et labore?</p>
+                </div>
+
+                <div class="testimonials-item">
+                    <img src="person3.jpg" alt="">
+                    <h2>Rebecca</h2>
+                    <div class="rating">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeRJREFUSEuFVtF1wzAIPCapsom9iT1JmknSTaxN4k2okbAlJOTop3oV5oCDIwQ5BIDTzT23z+nRWtT/kvt1HNsO8Nam9cw5dicDAoE1KRPdBmAHsI7ztS/0pTq19QLgrQHNYIp1XUd+qhI5JpqyZrMBNCWnhAimWe+Jg5KxxnR92+bqF3kCIOXJJ9sIQNS76ZI6VENyR3jxtzEwiecq0ghgvgcQ+6+tSYHAn6YT5auT7NgAm76sAQIBCxN+wAhqJX/zvaMoZbNnYNqVj11n4qUBmAykxlJrv/d9FEtLsdlBeGTyy/k9YnkOp9oZohvOVib8NQDJQwa5T6OZpE5m5qMS0gBXPu0HC1gHalSuER95wi/nibq2Z7Vb8tT6jpRH87gTsB6tnDqqDOCpRT6tIgsCZE5xa0KbCRydVq5JrpHTfTskYbJSbKOrkKUthb+u14aDNtoQA1GLBMw6E1WJxpO8EPAe7qAeRab60dfyBKhVM98XAluA7FRKIefpyIPoUrw2Y1VNW7n8kAkukV66o7EEcFLXUNn8gbC20t0vnOz0Q0DQmr7SAHaTTAFgCeKpUas89PF63L8PrRdd6genZZ8g2UjGArC2Px5MF5Ugu5Y9l0zeB4NWGu0GV4q7fTty6gpXkfd/F4bdIJBSzt0AAAAASUVORK5CYII="/>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. 
+                        Sunt hic sed neque perferendis 
+                        id natus accusamus error tenetur.
+                        Molestias corrupti eveniet aut 
+                        magni consequatur iure ullam 
+                        perspiciatis ducimus et labore?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/mayeonng"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfhJREFUSEuVVotxgzAMfdok3YRuEiZpN4FNyCZNJ1GRLdmSLZKr73IHRNbnfQwEtwgA+wflmkDg+LwEarTfNF3L3rZiIp/jqom8odhhLTBl8929SZMMMjakBcrjA4SljZ+03nvxE4cmngR8GNQOolKHAwdJ8/3RZQEjrhD6qsADwPP83T1PXgYvwNO8geSSxgbYAazKzQHwMvP0Bj/925GsBSrID4A/a1JscQoTxawWB29tna8nEGgEot8z7CuxRmaYJhYCqNlkUKg1IQXkJ+3eCHzjUrBE37Sgxcj9MvDUuKWBqMYBAWu9oQ1gIdo2KR9lQlvfZdKo4VlFE8l1+0bAfVRc82eNkSl+lLNEpt2NrNg5FTWSBVrr4QBoIbBMKbGyDgdVBlExjhqNdoBX3Wgq6hCVZKVYbaTid5w8GRe9wKAQ1ib3zoGfoCQSuKSorB2EVd3j5dxl6kl2R0XrLOHgDsJWNc476wQSV/3SmK4SyWWqEEWjGQeiqD5BUoDA3QeDfuNRoSoqndWzTZYWUA4UIgI27ueWQhQmCCQ/z/NHdU6LmmvXt5uYzsg0x0theXbTGEqP6+6DaL8Bxjb0dJp6o2lUOOyGMQeB1duXxWpFmdwOSiW5b/Vvt+sCPn66jk2EF06a0dzb3Z58efidw8dDjuPVIP/n5g/JtuodwdvCJwAAAABJRU5ErkJggg=="/></a>
+                <a href="https://github.com/Mayeonnng"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAilJREFUSEuNVdmB6jAMHHUSKlnoJKkk2UpgK0m2EtKJHjpsywf78AcJjqxjNCMTAWDYiu/jDTccPLqzwWftXi0JBJaHvmsK7zzEYJ0pgT44dyXgysAXAHk/GTgB/L7+HyAcOYk3wXJ2DVwTA3dxOgbGq7RgN9izWWLT7wkiGwHrR+hYVuL85+Vq69xFmP3jDNC9tP4T+HM1320Q60HBZgLh6T09GFgAmgm8OtNON508mW/rAVaH8gRoAVh6Y9xomryboe4+oAF0iUPFOARIwWQ7Qip2l0R864Gdmgm4J2oS+MGEZciQni1ChjlsS9OP5NoD0AywGKaINy/f4v8pB5oI/DQY1VCg25J8UoA7gWc3Ogl8SQof07Qug8A7F0pL9lKF09SyezrWsn0Q+NYH+LOMDJOKkXBpmxwCaEO9UZ7pYGg1DMznQxoVi5xB6rAKUHwPBkuJEgvODIwsClRT4TxcB2Hevu2GKFi0kFYJELK7Arw3U7NTZvGhJ0UfQs/oXEwqBsZhtzNhAqvAZMitLyWfAAtksmfisp/9pdh6EFq2mUGFRSUtyUialSZkGgFySFUdKpZ5NQ9uqZuOisCNFtgNoFXFMpiOAaIN4AyNV7aA8WgJV98H9jU1TYaXQCSjWBoXl9kUTi7sNpF1xqIi8YiBwJUunFE1IQmFzydoTeUQ4N3cp8nvhjhNpRvVfj04MhHqG20g1lhbg9BAdIMoVQUdXJ37/zgd6PAflqLsH5btyb0AAAAASUVORK5CYII="/></a>
+                <a href="https://www.instagram.com/mayeonng"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAnpJREFUSEuFlkFy2zAMRR8u0W3tk8TadN8DdMY5SeKZ3kPyMbqSehKrXXTfEyAECUqgJE+4UhgS/+PjA7QIoJSVv31jt+9n1oN+/pN9i7OsNagg6CHw8fm4235LZBqhdgDPY+wYrkoY0e0qiCfgCrwAl+MIWaK5yCtTEveGMJvGW3JbMS1w75nNCWBqGVXpltxPCeACOiPck67v2zpFAGP+MEaCdk3x463dNyeB0bN5BZ2qbYpEayH6Io2cBa3pNz6L6QM/0u0byH/Q7wgPFAve1ZihyBnlkQBmkC6bt3WASWcZfkX4jcog6DeFX8Bf3x/d512t27bIluUAvIbCnkB7hMuCWYBngZ8K/4AvAncVRjfI+VOA0BNj0vSCcPMCVoe9lWxZgiH0CfgqILF+0aiKMKBLBtlRRWdzR9Pf15yZ6U3W3ZbXMNFx6207WZONK9N44Vw83owTd1wFz2bpUTHgJe4ewNk6V/P0W9L3rEWOsHJDOSF594mWM9hLtHaSSedy5FgXkFHQW/pHbqAgUgYvhpDBXZdr4MeWDlhYCRijARVrFtu3Lu0FPSncU3hjGos8Jct2YTysNfCoodEyN7epA6xzyS5aNqHpsmRWYOubMn+8BiljiWM/YOnof3SbKWusbei9CPzRUnDrl3jXvnOjCnQFoE7TdlRYIGfWlnVj0+0IMRkNYEgkXg/7QKAeKum7NVvvrC9g7HZBey1ZWvbTAcAyx2tzuS3zrN+msjhEy3yqb4aNmCBdyflo2SWzYLz85GgutnXyPc2raXnUGxc9u7ot4dNzBw+vb4UM2kO7Kwcxok477AqwNnGku/j6+DeNR14fnwNyvvUBbMQSLIddXO4AAAAASUVORK5CYII="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeFJREFUSEuVVttxAjEMXHViKgmpJFAJpBKgEkgluU4Uy9bZkk/mJv5gbmxZj92VDGFcBIAJBAaXM/vtjYvpzKb52UQwG2pU3HRv8xtqY01pP4uZv52IJljz4CK38ucBLIwrWBHiO+UHdQNHgC4ETpUDPPLPFUAC6JSDybey40M+AZwBLO1UPRizE4DbWDYBCxMSuNy/hwEIYCYsYDxy3lfnuxOu2xGjcpdeAEtFr6rBvhKAXxP5O2d0B2s19cBnH9PzWZxvSS47TxCOKm4JLxktmpHAJknc6mUviUJ4TUggarzWCrqtZHhRR/9Xlw2gjicQzbv3Dfly5AjuHPSSPURGahHhm3FCOCikA0SeaJGqYO2MJooaaabxkhkV7eiY1fSlihkQCZtutTlXkj28I8kS5QQ2jTTk2NF0KhKlHXrv9notyXZgXnPTXdZR3OdMMOBqxE+AS2MFmMXdQkDKXS3ViGxndDflzGarqaDhK/NEljiWvnBrgKh27Sx1fUbW7JJ2coqIGuB6AXQGuA7F4TXaPjg9LZGnqOijQFTH7/oyiLOfvH/nddqG5emNvQcnZsZTYUfShoMogCWzd2ngVGHRATd7zBp4obhsgHcKcdxoSePdiXrXfxKz7vXjelOGHv8BwRTSG+AnJ3IAAAAASUVORK5CYII="/></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Services</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Piyush Singh | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
